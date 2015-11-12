@@ -1,5 +1,7 @@
 'use strict';
 
+window.angular = require('angular');
+
 require('jquery');
 require('angular');
 require('moment');
