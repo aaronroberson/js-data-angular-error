@@ -6,8 +6,6 @@ require('moment');
 require('lodash');
 require('datatables');
 require('metismenu');
-require('js-data');
-require('js-data-angular');
 
 // TODO exclude angular-sanitize from bower webpack plugin successfully
 require('angular-sanitize');
@@ -55,5 +53,6 @@ angular.module('GSNPortal', [
   'textAngular',
   'ui.select',
   'ui.utils',
-  require('angular-utils-pagination')
+  require('angular-utils-pagination'),
+  require('js-data-angular')
 ]);
