@@ -1,0 +1,37 @@
+// Site Variables
+$page-bg: #eeeeee;
+$sidebar-width: 220px;
+$footer-height: 60px;
+$footer-bg: #f5f5f5;
+$border-color: #e7eaec;
+
+// Navigation
+$nav-bg: #2f4050;
+$nav-darker: darken(#2f4050, 5);
+$nav-profile-pattern: image('../assets/images/header-profile.png') no-repeat;
+$nav-text-color: #a7b1c2;
+$navbar-static-height: 60px;
+
+// Master Detail Views
+$detail-actions-height: 80px;
+
+// fonts
+$primary-font: 'Droid Serif', serif;
+$secondary-font: 'Open Sans', sans-serif;
+
+//Border radius for buttons
+$btn-border-radius: 3px;
+
+// Import Bootstrap
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+// Font-awesome
+$fa-font-path: "../bower_components/font-awesome-sass/assets/fonts/font-awesome/";
+@import "../bower_components/font-awesome-sass/assets/stylesheets/font-awesome";
+
+// Awesome Bootstrap Checkbox
+@import "../bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox";
+
+// Bourbon
+@import "../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";

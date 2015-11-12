@@ -1,0 +1,10 @@
+{
+  "preset": "airbnb",
+  "esnext": true,
+  "requireTrailingComma": false,
+  "disallowSpacesInAnonymousFunctionExpression": null,
+  "requirePaddingNewLinesAfterBlocks": null,
+  "maximumLineLength": 300,
+  "disallowTrailingWhitespace": null,
+  "excludeFiles": ["node_modules/**"]
+}

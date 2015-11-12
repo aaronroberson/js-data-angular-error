@@ -1,0 +1,9 @@
+node_modules/
+.sass-cache/
+.tmp/
+/dist/
+.idea
+.DS_Store
+npm-debug.log
+
+.package.json

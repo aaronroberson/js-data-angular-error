@@ -1,0 +1,27 @@
+{
+  "name": "jquery.scrollbar",
+  "version": "0.2.9",
+  "main": [
+    "./jquery.scrollbar.js",
+    "./jquery.scrollbar.css"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "ignore": [
+    ".*",
+    "*.json",
+    "*.md",
+    "*.txt"
+  ],
+  "homepage": "https://github.com/gromo/jquery.scrollbar",
+  "_release": "0.2.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.9",
+    "commit": "8cbc3af60a494878337684a6f1f4a1cd14c4fd36"
+  },
+  "_source": "git://github.com/gromo/jquery.scrollbar.git",
+  "_target": "~0.2.7",
+  "_originalSource": "jquery.scrollbar"
+}
