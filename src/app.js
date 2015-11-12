@@ -1,11 +1,10 @@
 'use strict';
 
 require('jquery');
+
+// Add comments to switch between these two:
 require('angular');
-
-window.angular = require('angular');
-
-console.log(window.angular);
+//window.angular = require('angular');
 
 //require('moment');
 //require('lodash');
@@ -59,5 +58,7 @@ angular.module('GSNPortal', [
   //'ui.select',
   //'ui.utils',
   //require('angular-utils-pagination'),
+
+  // Add comments to remove  js-data-angular and app works
   require('js-data-angular')
 ]);

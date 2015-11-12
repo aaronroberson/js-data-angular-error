@@ -48,8 +48,7 @@ module.exports = function(watch) {
         $: 'jquery',
         jQuery: 'jquery',
         'window.jQuery': 'jquery',
-        moment: 'moment',
-        angular: 'angular'
+        moment: 'moment'
       }),
       new webpack.DefinePlugin({
         ENV_TEST: (JSON.stringify(process.env.NODE_ENV) === 'test') ? true : false
